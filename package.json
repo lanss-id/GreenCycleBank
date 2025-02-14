@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "turbo run dev",
-    "build": "turbo run build --output public",
+    "build": "turbo run build",
     "test": "turbo run test",
     "test:e2e": "turbo run test:e2e",
     "lint": "turbo run lint",
@@ -22,5 +22,6 @@
   "packageManager": "pnpm@8.15.5",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "outputDirectory": "dist"
 }
